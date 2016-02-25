@@ -9,18 +9,9 @@ Wetek Core configuration files for Logitech Harmony 880 remote (and likely newer
 (see [remote.conf](https://github.com/zehnm/wetek-core-harmony/blob/master/remote.conf) for possible options)
 
 ### Core Setup
-1. Extract the configuration files from the attached zip file in the Core's Download folder (/storage/sdcard0/Download)
-remote.conf contains all the magic
-Vendor_0001_Product_0001.kl fixes the Page Up / Down key mappings and adds the Star/Camera button
-
-        # fix page up & down
-        # key 104   VOLUME_UP
-        # key 109   VOLUME_DOWN
-        key 104   PAGE_UP
-        key 109   PAGE_DOWN
-        # add Star/Camera
-        key 64    F6
-
+1. Copy the .conf and .kl files to the Core's Download folder (/storage/sdcard0/Download)
+  * remote.conf contains all the magic
+  * Vendor_0001_Product_0001.kl fixes the Page Up / Down key mappings and adds the Star/Camera button
 2. Telnet to Core and make system partition writeable:
 
         telnet WetekCore.local
