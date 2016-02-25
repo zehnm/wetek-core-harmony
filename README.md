@@ -35,5 +35,5 @@ Wetek Core configuration files for Logitech Harmony 880 remote (and likely newer
 
 ## Notes
 * This procedure does not survive OTA updates and must be reapplied after the OS update 
-* Not yet tested with Wetek OS > 1.0.1
-* Back and Select keys don't seem to work with Wetek OS 1.1.1
+* Back and Select keys changed with Wetek Core OS 1.1.1
+* Not yet tested with Wetek Core OS > 1.1.1
